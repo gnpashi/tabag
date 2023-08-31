@@ -1,10 +1,32 @@
 .btn{
-    display: flex;
+    display: inline-flex;
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
     gap: 8px;
     border-radius: 999px;
-    border: 1px solid var(--main-blue, #1C14CA);
+    /* border: 1px solid var(--main-blue, #1C14CA); */
     background: var(--main-blue, #1C14CA);
+    font-weight: bold;
 }
+
+.btn.btn-secondary{
+    background-color: white;
+    color: var(--main-blue);
+}
+
+.btn.border{
+    border: 1px solid var(--main-blue, #1C14CA);
+}
+
+.vw100{
+    width: 100vw;
+}
+.section-title{
+    font-weight: bold;
+    text-align: center;
+    color: var(--main-blue);
+    font-size: 3rem;
+}
+
+
